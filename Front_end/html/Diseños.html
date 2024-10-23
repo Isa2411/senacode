@@ -185,25 +185,27 @@
         }
 
         .search {
-            display: flex; /* Usar flexbox para alinear los elementos */
-            align-items: center; /* Centrar verticalmente */
-            height: 60px;
+            display: flex;
+            align-items: center;
+            height: 50px;
             background-color: #fff;
             border-radius: 40px;
             padding: 10px;
-            max-width: 500%; /* Ancho máximo en pantallas grandes */
-            margin: 0 auto; /* Centrar horizontalmente */
+            max-width: 1000px; /* Puedes aumentar este valor si es necesario */
+            margin: 0 auto;
+            width: 600px;
         }
         
         .search_input {
             flex: 1; /* Ocupa todo el espacio disponible */
-            color: rgb(0, 60, 255);
+            color: rgb(0, 0, 0);
             border: 0;
             outline: 0;
             background: none;
             line-height: 40px;
             transition: width 0.4s linear;
             padding: 0 10px;
+            width: 80%; /* Ajusta el ancho aquí */
         }
         
         .search_icon {
@@ -227,7 +229,7 @@
                 max-width: 100%; /* Se ajusta al 100% en pantallas más pequeñas */
             }
             .search_input {
-                width: 100%; /* Campo de entrada ocupa todo el ancho */
+                width: 200%; /* Campo de entrada ocupa todo el ancho */
             }
         }
         
@@ -264,7 +266,6 @@
             <div class="d-flex justify-content-center h-100">
               <div class="search">
                 <input class="search_input" type="text" id="searchInput" name="" placeholder="Buscar..." >
-                <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
               </div>
             </div>
           </div>
@@ -278,7 +279,7 @@
                     <img src="/Front_end/img/Imagenes de cartas/RitmoCardiaco.PNG" class="card-img-top"
                         alt="Producto 1">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" style="text-align: center;">RitmoCardiaco</h5>
+                        <h5 class="card-title" style="text-align: center;">Ritmo Cardiaco</h5>
                         <div class="mt-auto">
                             <button class="btn btn-primary w-100"><a href="https://codepen.io/cris122rr/pen/poMWYOq" style="text-decoration: none; color:white">Ver codigo</a></button>
                         </div>
@@ -299,7 +300,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Goku and Vegeta">
                     <img src="/Front_end/img/Imagenes de cartas/Goku.PNG" class="card-img-top" alt="Producto 3">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Goku and Vegeta</h5>
@@ -312,7 +313,7 @@
 
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Construye tu mosntruo">
                     <img src="/Front_end/img/Imagenes de cartas/Monstruo.PNG" class="card-img-top" alt="Producto 4">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Construye tu mosntruo</h5>
@@ -324,7 +325,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Boo!">
                     <img src="/Front_end/img/Imagenes de cartas/Boo.PNG" class="card-img-top" alt="Producto 5">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Boo!</h5>
@@ -336,7 +337,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Destinos">
                     <img src="/Front_end/img/Imagenes de cartas/SitioAleatorio.PNG" class="card-img-top" alt="Producto 6">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Destinos</h5>
@@ -348,7 +349,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Bobble bubble">
                     <img src="/Front_end/img/Imagenes de cartas/Bubble.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Bobble bubble</h5>
@@ -360,7 +361,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Calculadora">
                     <img src="/Front_end/img/Imagenes de cartas/Calculadora.PNG" class="card-img-top" alt="Producto 8">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Calculadora</h5>
@@ -371,11 +372,11 @@
                 </div>
             </div>
 
-            <div class="col" data-name="RitmoCardiaco">
+            <div class="col" data-name="TorreDeParis">
                 <div class="card h-100">
                     <img src="/Front_end/img/Imagenes de cartas/JuegoTorre.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" style="text-align: center;">TorreDeParis</h5>
+                        <h5 class="card-title" style="text-align: center;">Torre de Paris</h5>
                         <div class="mt-auto">
                             <button class="btn btn-primary w-100"><a href="https://codepen.io/cris122rr/pen/zYgEpzo" style="text-decoration: none; color:white">Ver codigo</a></button>
                         </div>
@@ -384,7 +385,7 @@
             </div>
             
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Matrix">
                     <img src="/Front_end/img/Imagenes de cartas/Matrix.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Matrix</h5>
@@ -396,7 +397,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Snake Game">
                     <img src="/Front_end/img/Imagenes de cartas/Snake.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Snake Game</h5>
@@ -408,10 +409,10 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="TextoParty">
                     <img src="/Front_end/img/Imagenes de cartas/MensajeGirando.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" style="text-align: center;">TextoParty</h5>
+                        <h5 class="card-title" style="text-align: center;">Texto Party</h5>
                         <div class="mt-auto">
                             <button class="btn btn-primary w-100"><a href="https://codepen.io/cris122rr/pen/yLmzpaL" style="text-decoration: none; color:white">Ver codigo</a></button>
                         </div>
@@ -420,7 +421,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Universo">
                     <img src="/Front_end/img/Imagenes de cartas/Universe.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Universo</h5>
@@ -433,10 +434,10 @@
 
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="TRIKI">
                     <img src="/Front_end/img/Imagenes de cartas/Triki.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" style="text-align: center;">TRIKI</h5>
+                        <h5 class="card-title" style="text-align: center;">Triki</h5>
                         <div class="mt-auto">
                             <button class="btn btn-primary w-100"><a href="https://codepen.io/cris122rr/pen/VwoMywz" style="text-decoration: none; color:white">Ver codigo</a></button>
                         </div>
@@ -445,7 +446,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="PingPong Game">
                     <img src="/Front_end/img/Imagenes de cartas/Ping-pong.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">PingPong Game</h5>
@@ -457,7 +458,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Sudoku Game">
                     <img src="/Front_end/img/Imagenes de cartas/Sudoku.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Sudoku Game</h5>
@@ -469,7 +470,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Tennis Game">
                     <img src="/Front_end/img/Imagenes de cartas/tennis.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title" style="text-align: center;">Tennis Game</h5>
@@ -481,10 +482,10 @@
             </div>
 
             <div class="col">
-                <div class="card h-100" data-name="RitmoCardiaco">
+                <div class="card h-100" data-name="Drawing-tablet">
                     <img src="/Front_end/img/Imagenes de cartas/Tabla para Dibujar.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" style="text-align: center;">Drawing-tablet</h5>
+                        <h5 class="card-title" style="text-align: center;">Drawing tablet</h5>
                         <div class="mt-auto">
                             <button class="btn btn-primary w-100"><a href="https://codepen.io/cris122rr/pen/KKOXYyK" style="text-decoration: none; color:white">Ver codigo</a></button>
                         </div>
@@ -493,10 +494,10 @@
             </div>
 
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100" data-name="Square -breaking Game">
                     <img src="/Front_end/img/Imagenes de cartas/JuegoCubos.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title" style="text-align: center;">Square -breaking Game</h5>
+                        <h5 class="card-title" style="text-align: center;">Square breaking Game</h5>
                         <div class="mt-auto">
                             <button class="btn btn-primary w-100"><a href="https://codepen.io/cris122rr/pen/LYwzvre" style="text-decoration: none; color:white">Ver codigo</a></button>
                         </div>
@@ -505,7 +506,7 @@
             </div>
 
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100" data-name="Lamp light">
                     <img src="/Front_end/img/Imagenes de cartas/Lampara.PNG" class="card-img-top" alt="Producto 7">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title"style="text-align: center;">Lamp light</h5>
@@ -519,15 +520,15 @@
     </div>
     <script>
         document.getElementById('searchInput').addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase(); // Captura la entrada del usuario
-            const cards = document.querySelectorAll('.card'); // Selecciona todas las tarjetas
+            const searchTerm = this.value.toLowerCase();
+            const cards = document.querySelectorAll('.card');
     
             cards.forEach(card => {
-                const cardName = card.getAttribute('data-name').toLowerCase(); // Obtiene el nombre de la tarjeta
+                const cardName = card.getAttribute('data-name').toLowerCase();
                 if (cardName.includes(searchTerm)) {
-                    card.style.display = ''; // Muestra la tarjeta si coincide
+                    card.style.display = '';
                 } else {
-                    card.style.display = 'none'; // Oculta la tarjeta si no coincide
+                    card.style.display = 'none';
                 }
             });
         });
