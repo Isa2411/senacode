@@ -15,9 +15,6 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <style>
-    a{
-        color: white;
-    }
 </style>
 <body style="background-image: url(/Front_end/img/22\ 1.jpg); background-repeat: no-repeat; background-size: cover;">
     <div>
@@ -36,14 +33,69 @@
                     <li class="nav-item" ><a href="/Front_end/index.html" class="nav-link"><b style="color: white;">Inicio</b></a></li>
                     <li class="nav-item"><a href="/Front_end/html/MisionVision.html" class="nav-link"><b style="color: white;">Nosotros</b></a></li>
                     <li class="nav-item"><a href="#" class="nav-link"><b style="color: white;">Contacto</b></a></li>
-                    <li class="nav-item"><button class="btn btn-light" style="background-color: white;"><a style="color: black; text-decoration:none;" href="/Front_end/html/Diseños.html"><b>Diseños</b></a></button></li>
+                    <li class="nav-item"><button class="btn btn-light" style="background-color: white; border-radius:20px; width: 105px;"><a style="color: black; text-decoration:none;" href="/Front_end/html/Diseños.html"><b>Diseños</b></a></button></li>
                 </ul>
             </header>
         </div>
     </div>
-    <div class="container">
-        <h1 style="color: white; text-align: center; margin: 13%; font-size: 55px;"><b>Bienvenido a SenaCode. Descubre diseños únicos, documentación útil y recursos para tu creatividad.</b></h1>
-        <button class="btn btn-light" style="display: flex; align-items: center; justify-content: center; width: 12%; margin: 0 auto; gap: 8px;"><a style="color: black; text-decoration:none;" href="/Front_end/html/Diseños.html"><b>Explorar</b></a><box-icon name='link-external'></box-icon></button>
-    </div>
+
+    <div class="text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <div class="col-lg-6 mx-auto">
+            <h1 class="fs-7 fw-bold text-white">Bienvenido a SenaCode. Descubre diseños únicos, documentación útil y recursos para tu creatividad.</h1>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button class="btn btn-light" style="display: flex; align-items: center; justify-content: center; width: 12%; margin: 0 auto; gap: 8px; border-radius:22px; width: 150px; margin-bottom: 10%;height: 45px"><a style="color: black; text-decoration:none;" href="/Front_end/html/Diseños.html"><b>Explorar</b></a><box-icon name='link-external'></box-icon></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--
+    <div class="container-fluid">
+        <h1 style="color: white; text-align: center; margin: 25%; font-size: 50px;"><b>Bienvenido a SenaCode. Descubre diseños únicos, documentación útil y recursos para tu creatividad.</b></h1>
+        <button class="btn btn-light" style="display: flex; align-items: center; justify-content: center; width: 12%; margin: 0 auto; gap: 8px; border-radius:22px; width: 150px; margin-bottom: 10%;height: 45px"><a style="color: black; text-decoration:none;" href="/Front_end/html/Diseños.html"><b>Explorar</b></a><box-icon name='link-external'></box-icon></button>
+    </div>-->
+    <!--
+    <div class="container-fluid">
+        <div class="row"">
+            <div class="col-7">
+                <canvas id="canvas" width="100" height="100"></canvas>
+            </div>
+            <div class="col-5">
+                <p style="color: white; font-size: 30px;">Nuestro objetivo es ofrecerte recursos prácticos y accesibles que impulsen tu creatividad y te permitan explorar nuevas 
+                    ideas, proporcionando las herramientas necesarias para inspiración, resolución de problemas y aprendizaje en SenaCode.</p>
+            </div>
+        </div>
+    </div>-->
+    <div class="container-fluid" style="background-color: #ffffff;">
+        <footer class="py-3">
+          <ul class="nav border-bottom mb-3 justify-content-between">
+            <div class="d-flex">
+              <li class="nav-item-fo"><a class="nav-link px-2" style="color: rgb(0, 0, 0);" data-section="projects" data-value="contactanos"><b>Contáctanos</b></a></li>
+              <li class="nav-item-fo-I"><a class="nav-link px-1" href="tel:3232323591"><box-icon name='phone' color='#000000'></box-icon></a></li>
+              <li class="nav-item-fo-I"><a class="nav-link px-1" href="mailto:grupoFront127@outlook.es"><box-icon name='envelope' color='#000000' ></box-icon></a></li>
+            </div>
+            <div class="d-flex">
+              <li class="nav-item-fo-P"><span><img src="/Front_end/img/logo__1_-removebg-preview.png" alt="" width="100px"></span></li>
+            </div>
+          </ul>
+          <p class="text-center" style="color: rgb(0, 0, 0);"><b>©2024 · SENACODE</b></p>
+        </footer>
+      </div>
+
+ 
+    <script type="module">
+        import { DotLottie } from "<https://lottie.host/b81cc24f-d58e-4c37-ae11-9fda6117339e/zNxFQkmtwN.json>";
+  
+        new DotLottie({
+          autoplay: true,
+          loop: true,
+          canvas: document.getElementById("canvas"),
+          src: "<https://lottie.host/b81cc24f-d58e-4c37-ae11-9fda6117339e/zNxFQkmtwN.json>", // replace with your .lottie or .json file URL
+        });
+      </script>
+
+      <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/b81cc24f-d58e-4c37-ae11-9fda6117339e/zNxFQkmtwN.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
 </body>
 </html>
