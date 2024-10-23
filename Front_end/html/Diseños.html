@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseños</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/Front_end/css/bootstrap.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-image: url(/Front_end/img/22\ 1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+        }
+
+        header .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+
+        header .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+        /* Estilos para las tarjetas */
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-img-top {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .card-footer {
+            background: transparent;
+            border-top: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Título del Catálogo */
+        .catalog-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Responsividad para el título */
+        @media (max-width: 768px) {
+            .catalog-title {
+                font-size: 2rem;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Navegación -->
+    <div>
+        <h1 class="visually-hidden">SENACODE</h1>
+        <div class="container-fluid">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                    <span><img src="/Front_end/img/logo__1_-removebg-preview.png" alt="Logo" width="100px"></span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><button class="btn btn-light"><b>Diseños</b></button></li>
+                </ul>
+            </header>
+        </div>
+    </div>
+
+    <!-- Título "Catálogo" centrado -->
+    <div class="container my-5">
+        <h2 class="text-center catalog-title">Catálogo</h2>
+
+        <!-- Fila de Cards -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 1</h5>
+                        <p class="card-text">Descripción del producto 1.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 2</h5>
+                        <p class="card-text">Descripción del producto 2.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 3</h5>
+                        <p class="card-text">Descripción del producto 3.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 4">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 4</h5>
+                        <p class="card-text">Descripción del producto 4.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 5</h5>
+                        <p class="card-text">Descripción del producto 5.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 6">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 6</h5>
+                        <p class="card-text">Descripción del producto 6.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 7">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 7</h5>
+                        <p class="card-text">Descripción del producto 7.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Producto 8">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Producto 8</h5>
+                        <p class="card-text">Descripción del producto 8.</p>
+                        <div class="mt-auto">
+                            <button class="btn btn-primary w-100">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS y dependencias (opcional) -->
+    <script src="/Front_end/js/bootstrap.js"></script>
+</body>
+
+</html>
